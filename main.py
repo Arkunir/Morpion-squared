@@ -8,7 +8,7 @@ class UltimateTicTacToeGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Ultimate Tic-Tac-Toe")
-        self.root.geometry("800x900")
+        self.root.geometry("800x1000")  # Augmenté de 900 à 1000 pixels en hauteur
         
         # État du jeu
         self.env = UltimateTicTacToeEnv()
