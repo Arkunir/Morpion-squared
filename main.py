@@ -94,7 +94,7 @@ class UltimateTicTacToeGUI:
         tk.Label(self.ai_vs_ai_frame, text="Vitesse (ms):", 
                 font=('Arial', 12), fg='white', bg='#2c3e50').pack(side=tk.LEFT, padx=5)
         
-        speed_scale = tk.Scale(self.ai_vs_ai_frame, from_=100, to=3000, 
+        speed_scale = tk.Scale(self.ai_vs_ai_frame, from_=10, to=3000, 
                               orient=tk.HORIZONTAL, variable=self.ai_vs_ai_speed,
                               font=('Arial', 10), fg='white', bg='#2c3e50',
                               highlightbackground='#2c3e50', length=200)
